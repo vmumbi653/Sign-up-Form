@@ -25,7 +25,7 @@ html {
     background-position: left;
     background-repeat: no-repeat;
     width: 40vw;
-    height: 100vh;
+    min-height: 100vh;
     font: 'calligraffitiregular', sans-serif;
     /* color: white; */
     /* opacity: 0.6; */
@@ -45,7 +45,7 @@ h1 {
     color: #ffffff;
     font-weight: bold;
     position: absolute;
-    top: 30%;
+    top: 10%;
     width: 40vw;
 }
 
@@ -53,7 +53,7 @@ h1 {
     background-color: white;
     /* width: max(100px, 4em, 50%); */
      width: 60%;
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     top: 50%;
     left: 70%;
@@ -63,9 +63,11 @@ h1 {
 
 .paragraph {
     background-color: #f2f2f2;
-    padding: 2rem;
-    /* line-height: 1; */
-    font-size:1rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    line-height: 1;
+    font-size: 18px;
     font-weight: 900;
     /* position: relative; */
     text-align: left;
@@ -78,8 +80,9 @@ button {
     padding: 0.5rem;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 150px
-    box-shadow 1px, 1px, 1px black;
+    width: 200px;
+    box-shadow: 1px, 1px, 1px black;
+    cursor: pointer;
     /* margin-left: 2rem; */
 }
 
@@ -90,10 +93,10 @@ input {
     padding: 0;
     margin: 0;
     /* gap: 40px; */
-    /* width: auto; */
+    width: auto;
     /* display: inline-block; */
     border-radius: 4px lightgrey;
-    width: 300px;
+    /* width: 300px; */
     height: 30px;
     cursor: pointer;
 }
@@ -102,9 +105,11 @@ label {
     font-size: 14px;
 }
 .form-container {
-    padding: 2rem;
+    padding-left: 2rem;
     border: 1px solid transparent; 
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -123,15 +128,19 @@ p [p$="in"] {
  }
 .bottom {
     margin-left: 2rem;
-    border-top-color:  #596D48;
-    border-top: 2px;
-    margin-bottom: 80px;
+    margin-top: 1rem;
+    /* border-top-color:  #596D48; */
+    /* border-top: 2px; */
+     margin-bottom: 6rem;
 
 }
 img {
     width: 100px;
     height: 100px;
     align-content: center;
+}
+.pwd {
+    margin-bottom: 2rem;
 }
 
 
