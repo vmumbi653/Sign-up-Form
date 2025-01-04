@@ -71,6 +71,7 @@ h1 {
     font-weight: 900;
     /* position: relative; */
     text-align: left;
+    white-space: wrap;
     /* padding-top: 40px; */
 }
 
@@ -80,7 +81,7 @@ button {
     padding: 0.5rem;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 200px;
+    width: 150px;
     box-shadow: 1px, 1px, 1px black;
     cursor: pointer;
     /* margin-left: 2rem; */
@@ -95,14 +96,15 @@ input {
     /* gap: 40px; */
     width: auto;
     /* display: inline-block; */
-    border-radius: 4px lightgrey;
+    border-radius: 8px lightgrey;
     /* width: 300px; */
     height: 30px;
     cursor: pointer;
 }
 label {
     display: block;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .form-container {
     padding-left: 2rem;
@@ -116,9 +118,6 @@ label {
     box-shadow: 4px, 4px,4px lightslategray; */
 }
 
-p [p$="in"] {
-    color: #596D48;
-}
  footer {
     color: white;
     font-size: 12px;
@@ -142,5 +141,16 @@ img {
 .pwd {
     margin-bottom: 2rem;
 }
+
+.form-left {
+    float: left;
+}
+.form-right {
+    margin-left: 2rem;
+    position: relative;
+    left: 15%;
+    margin-bottom: 1.5rem;
+}
+
 
 
