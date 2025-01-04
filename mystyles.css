@@ -14,8 +14,6 @@
     font-style: normal;
 }
 
-
-
 html {
     /* background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: left;
@@ -24,14 +22,8 @@ html {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-   
-
+    position: relative;  
 }
-h1 {
-    font-family: 'norsebold';
-    text-align: center;
-}
-
 
 .logo {
     /* background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
@@ -54,14 +46,17 @@ h1 {
 }
 
 h1 {
-    opacity: 0.4;
+    opacity: 0.6;
     background-color: black;
-    color: #ffffff;
-    font-weight: bold;
+    color: rgb(255, 255,255);
+    font-weight: 900;
     position: absolute;
-    top: 10%;
+    top: 11%;
     width: 40vw;
+    font-family: 'norsebold';
+    text-align: center;
 }
+
 
 .main-container {
     background-color: white;
@@ -105,28 +100,33 @@ button {
 input {
     font-family: inherit;
     font-size: 100%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
-    /* gap: 40px; */
     width: auto;
     /* display: inline-block; */
-    border-radius: 6px;
-    /* border-color: #E5E7EB; */
+    border-radius: 4px;
+    /* border-color: 1px #E5E7EB; */
     /* width: 300px; */
     height: 30px;
     cursor: pointer;
+    outline: none;
 }
 
 input:focus {
-    border-color: 4px blue;
-    box-shadow: 2px, 2px, 2px #cccccc;
-    
+    /* border-color: 2px,  #000099; 
+    border: 2px,  #000099; */
+    border: 1px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    outline-color: transparent;
+}
 
-}
 input:invalid {
-    border-color: red;
+    border: 1px, solid crimson;
+    outline-color: transparent;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
 }
+
 label {
     display: block;
     font-size: 12px;
@@ -162,6 +162,9 @@ img {
     width: 100px;
     height: 100px;
     align-content: center;
+    position: relative;
+    top: 12px;
+    
 }
 .pwd {
     margin-bottom: 2rem;
@@ -169,6 +172,7 @@ img {
 
 .form-left {
     float: left;
+    position: relative;
 }
 .form-right {
     margin-left: 2rem;
@@ -176,6 +180,14 @@ img {
     left: 15%;
     margin-bottom: 1.5rem;
 }
+a{
+    color: #596D48;
+    font-weight: bold;
+}
+a:hover {
+    cursor: pointer;
+}
+
 
 
 
