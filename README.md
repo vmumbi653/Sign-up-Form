@@ -1,1 +1,2 @@
 # Sign-up-Form
+This project requires one to create a sign-up form for a service offered. This project is meant to showcase more skills one has acquired thus far in HTML and CSS at the intermediate level.
